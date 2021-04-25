@@ -1,9 +1,9 @@
-const { SSL_OP_EPHEMERAL_RSA } = require('constants');
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 
 let folder = null
-let destination = null
 
 replacements = [
     {
@@ -71,3 +71,4 @@ fs.readdir(folder, (err, files) => {
         }
     });
 })
+

@@ -2,7 +2,10 @@
   "name": "asvgc",
   "version": "1.0.0",
   "description": "A simple nodejs app to convert Affinity Designer SVGs to a React format by removing namespaces.",
-  "main": "app.js",
+  "main": "bin/app.js",
+  "bin": {
+    "asvgc": "./bin/app.js"
+  },
   "author": "Matt C",
-  "license": "ISC"
+  "license": "Apache License 2.0"
 }
